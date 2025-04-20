@@ -1,0 +1,79 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .timer {
+    font-size: 5rem;
+    margin: 20px 0;
+  }
+  
+  .controls, .modes {
+    margin: 15px 0;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .modes button {
+    background-color: #6c757d;
+  }
+  
+  .modes button.active {
+    background-color: #28a745;
+  }
+  .main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #startBtn {
+    background-color:rgb(233, 114, 229);
+    border-radius: 8px;
+    font-family: "Roboto", sans-serif;
+  }
+  .heading{
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  #stopBtn {
+    background-color:red;
+    border-radius: 8px;
+    font-family: "Roboto", sans-serif;
+  }
+  #resetBtn {
+    background-color:blue;
+    border-radius: 8px;
+    font-family: "Roboto", sans-serif;
+  }
+  #pauseBtn {
+    background-color:rgb(101, 90, 223);
+    border-radius: 8px;
+    font-family: "Roboto", sans-serif;
+  }
+  #resumeBtn {
+    background-color:orange;
+    border-radius: 8px;
+    font-family: "Roboto", sans-serif;
+  } 
